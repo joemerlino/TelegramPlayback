@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>The tweak is already enabled and it keeps playing audios even if you open other applications. If you enable this switch you'll also have playback audio inside Telegram, so you can open other conversations while listening but please notice that this way you can't pause it unless you kill the Telegram app and if you play another audio, it will overlaps with the first one.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.joemerlino.telegramplayback</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Playback inside Telegram</string>
+			<key>PostNotification</key>
+			<string>com.joemerlino.telegramplayback.preferencechanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Donation and contact email are the same, if you're already logged on PayPal you'll see that directly filled in.</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>alignment</key>
+			<string>center</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>@joe_merlino</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>my_site</string>
+			<key>alignment</key>
+			<string>center</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>GitHub</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate</string>
+			<key>alignment</key>
+			<string>center</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Buy Me a Coffee! (Donate)</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sendEmail</string>
+			<key>alignment</key>
+			<string>center</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Send Mail</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>TelegramPlayback</string>
+</dict>
+</plist>
