@@ -8,13 +8,13 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>The tweak is already enabled and it keeps playing audios even if you open other applications. If you enable this switch you'll also have playback audio inside Telegram, so you can open other conversations while listening but please notice that this way you can't pause it unless you kill the Telegram app and if you play another audio, it will overlaps with the first one.</string>
+			<string>If enabled you can open other conversations while listening an audio but please notice that you can't pause it unless you kill the Telegram app and if you play another audio, it will overlaps with the first one.</string>
 		</dict>
 		<dict>
 			<key>cell</key>
 			<string>PSSwitchCell</string>
 			<key>default</key>
-			<false/>
+			<true/>
 			<key>defaults</key>
 			<string>com.joemerlino.telegramplayback</string>
 			<key>key</key>
@@ -28,7 +28,25 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
-			<string>Donation and contact email are the same, if you're already logged on PayPal you'll see that directly filled in.</string>
+			<string>If enabled you can record audios without keeping the button tapped, tap once to start and once to end it.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.joemerlino.telegramplayback</string>
+			<key>key</key>
+			<string>mic</string>
+			<key>label</key>
+			<string>One-touch mic</string>
+			<key>PostNotification</key>
+			<string>com.joemerlino.telegramplayback.preferencechanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
 		</dict>
 		<dict>
 			<key>action</key>

@@ -3,7 +3,7 @@ Name: TelegramPlayback
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: Keeps playing audios even if you open other applications. You can also open other Telegram conversations while listening if you enable the switch inside the dedicated preference pane.
+Description: Keeps playing audios even in other Telegram conversations. Also enables one touch recording.
 Maintainer: Joe Merlino
 Author: Joe Merlino
 Section: Tweaks
